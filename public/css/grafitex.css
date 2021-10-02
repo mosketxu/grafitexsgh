@@ -1,0 +1,44 @@
+.activo{
+    background-color: #92c6ce;
+    padding: 3px;
+    color:#fff !important;
+    border-radius: 0.25rem;
+}
+
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 80px;
+    cursor: pointer;
+}
+
+/* quitar las flechas de los numeros */
+
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+    }
+
+/* boton como enlace */
+
+    button.enlace{
+        border:0; 
+        background-color: rgba(104, 13, 13, 0) !important;
+        cursor:pointer;
+    }
+
+/* para los label de los permisos quitar la negrita */
+.labelpermiso{
+    font-weight: 400 !important;
+    font-size: 0.9rem;
+}
+
+/* Para el plugin de ordenacion */
+/* table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+    content: " \25B4\25BE" 
+} */
+
